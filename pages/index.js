@@ -27,7 +27,7 @@ export default function Home() {
             </div>
             <div className="m-4 py-4 lg:col-span-2 lg:flex lg:flex-col lg:justify-center">
               <p className="text-xs mt-2 text-gray-600 md:text-lg md:mt-4 lg:text-left">
-                大学の情報理工学科にて、Web開発、HCI、機械学習、等を学びました。
+                大学の情報理工学科にて、Web開発、UI/UX、機械学習、等を学びました。
               </p>
               <p className="text-xs mt-2 text-gray-600 md:text-lg md:mt-4 lg:text-left">
                 卒業後、SIerにてインフラエンジニアとして働きました。
@@ -39,7 +39,7 @@ export default function Home() {
                 <div className="lg:flex lg:justify-start">
                   <div>
                     <p className="text-xs mt-2 text-gray-600 md:text-lg md:mt-4 lg:text-left">
-                      「HTML5レベル2」認定プロフェッショナル
+                      「HTML5レベル2」 認定プロフェッショナル
                     </p>
                     <p className="text-xs mt-2 text-gray-600 md:text-lg md:mt-4 lg:text-left">
                       基本情報技術者 / 応用情報技術者

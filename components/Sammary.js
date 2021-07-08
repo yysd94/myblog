@@ -21,11 +21,10 @@ const Sammary = (props) => {
           <div className="mt-4">
             <p className="my-4">ソフトウェア技術が好きです。</p>
             <p className="my-4">
-              大学では、オブジェクト指向、機械学習、
-              　UI/UX、Web開発等、幅広く経験しました。
+              大学で、Web開発、UI/UX、機械学習、アルゴリズム、オブジェクト指向等、幅広く経験しました。
             </p>
             <p className="my-4">
-              最近は、Web技術(主にフロントエンド)に
+              最近は、Webフロントエンド技術とクラウドに
               <br />
               関心があり勉強中です。
             </p>
