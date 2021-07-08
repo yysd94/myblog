@@ -4,8 +4,8 @@ const Sammary = (props) => {
   const { changeViewMode } = props;
 
   return (
-    <div className="my-4 lg:grid lg:grid-cols-2 lg:gap-12 lg:mx-16">
-      <div className="p-4 lg:col-span-1 flex flex-col place-content-between">
+    <div className="lg:grid lg:grid-cols-2 lg:gap-12 lg:mx-16">
+      <div className="my-4 p-4 flex flex-col place-content-between lg:col-span-1">
         <div className="">
           <div className="flex justify-center">
             <Image
@@ -24,13 +24,13 @@ const Sammary = (props) => {
               大学で、Web開発、UI/UX、機械学習、アルゴリズム、オブジェクト指向等、幅広く経験しました。
             </p>
             <p className="my-4">
-              最近は、Webフロントエンド技術とクラウドに
+              最近は、Webフロントエンド技術とUXデザインに
               <br />
               関心があり勉強中です。
             </p>
           </div>
         </div>
-        <div className="py-8 border-b-2">
+        <div className="my-8 pb-8 border-b-2">
           <button
             className="bg-gray-800 text-gray-300 hover:bg-gray-700 px-3 py-2 rounded"
             onClick={() => changeViewMode(1)}
@@ -39,7 +39,7 @@ const Sammary = (props) => {
           </button>
         </div>
       </div>
-      <div className="p-4 lg:col-span-1 flex flex-col place-content-between">
+      <div className="my-4 p-4 flex flex-col place-content-between lg:col-span-1">
         <div className="">
           <div className="flex justify-center">
             <Image
@@ -57,7 +57,7 @@ const Sammary = (props) => {
             <p className="my-4">ジャズピアノの演奏や作曲をします。</p>
           </div>
         </div>
-        <div className="py-8 border-b-2">
+        <div className="my-8 pb-8 border-b-2">
           <button
             className="bg-gray-800 text-gray-300 hover:bg-gray-700 px-3 py-2 rounded"
             onClick={() => changeViewMode(2)}

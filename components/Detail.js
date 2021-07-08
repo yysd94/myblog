@@ -1,16 +1,19 @@
 import Computer from "./contents/Computer";
 import Music from "./contents/Music";
-import Movie from "./contents/Movie";
 
 const Detail = (props) => {
   const { contentIndex, changeViewMode } = props;
   return (
-    <div>
+    <div className="my-4 py-4 w-screen flex flex-col place-content-between">
       {contentIndex === 1 && <Computer />}
       {contentIndex === 2 && <Music />}
-      {/* {contentIndex === 3 && <Movie />} */}
-      <div>
-        <button onClick={changeViewMode}>概要へ</button>
+      <div className="mt-8 pb-8 border-b-2">
+        <button
+          className="bg-gray-800 text-gray-300 hover:bg-gray-700 px-3 py-2 rounded"
+          onClick={changeViewMode}
+        >
+          戻る
+        </button>
       </div>
     </div>
   );
