@@ -39,7 +39,7 @@ export default function Home() {
                 <div className="lg:flex lg:justify-start">
                   <div>
                     <p className="text-xs mt-2 text-gray-600 md:text-lg md:mt-4 lg:text-left">
-                      HTML5プロフェッショナル認定 レベル2
+                      「HTML5レベル2」認定プロフェッショナル
                     </p>
                     <p className="text-xs mt-2 text-gray-600 md:text-lg md:mt-4 lg:text-left">
                       基本情報技術者 / 応用情報技術者
