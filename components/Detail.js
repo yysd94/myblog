@@ -8,7 +8,7 @@ const Detail = (props) => {
     <div>
       {contentIndex === 1 && <Computer />}
       {contentIndex === 2 && <Music />}
-      {contentIndex === 3 && <Movie />}
+      {/* {contentIndex === 3 && <Movie />} */}
       <div>
         <button onClick={changeViewMode}>概要へ</button>
       </div>

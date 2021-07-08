@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Layout({ children, title = "HP by Nextjs" }) {
   return (
-    <div className="flex justify-center items-center flex-col min-h-screen text-gray-600 text-sm font-mono">
+    <div className="flex flex-col justify-center items-center min-h-screen text-gray-600 text-sm font-mono">
       <Head>
         <title>{title}</title>
       </Head>

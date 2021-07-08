@@ -16,19 +16,15 @@ const About = () => {
   };
   return (
     <Layout title="About">
-      <div>
-        <div>
-          <div>
-            {isDetail ? (
-              <Detail
-                contentIndex={contentIndex}
-                changeViewMode={() => toSammaryMode()}
-              />
-            ) : (
-              <Sammary changeViewMode={(index) => toDetailMode(index)} />
-            )}
-          </div>
-        </div>
+      <div className="text-center h-full flex flex-col justify-center rounded">
+        {isDetail ? (
+          <Detail
+            contentIndex={contentIndex}
+            changeViewMode={() => toSammaryMode()}
+          />
+        ) : (
+          <Sammary changeViewMode={(index) => toDetailMode(index)} />
+        )}
       </div>
     </Layout>
   );

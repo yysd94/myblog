@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <Layout title="Home">
-      <div className=" text-center w-screen h-full rounded lg:flex lg:justify-center">
+      <div className=" text-center h-full flex flex-col justify-center rounded lg:flex lg:justify-center">
         <div className="my-12">
           <div className="lg:grid lg:grid-cols-3 lg:gap-12">
             <div className="lg:col-span-1 lg:flex lg:flex-col lg:justify-center">
