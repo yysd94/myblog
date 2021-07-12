@@ -1,5 +1,3 @@
-import React from 'react'
-
 const CareerItem = (props) => {
 
     const {term, title, descriptions} = props;
@@ -8,8 +6,8 @@ const CareerItem = (props) => {
             <div>{term}</div>
             <div>{title}</div>
             <div>
-                {descriptions.map((description) => 
-                    <p>{description}</p>
+                {descriptions.map((description, index) => 
+                    <p key={index}>{description}</p>
                 )}
             </div>
         </div>
