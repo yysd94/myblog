@@ -1,4 +1,5 @@
 import { Radar, Pie } from "react-chartjs-2";
+import CareerItem from "./CareerItem";
 
 const totalSkillData = {
   labels: ["コンピュータ基礎", "ビジネス", "アプリ", "UI/UX", "インフラ", "AI"],
@@ -72,6 +73,48 @@ const langOptions = {
   },
 };
 
+const careers = [
+  {
+    term: "2014.4 - 2020.3",
+    title: "情報理工学科卒業",
+    descriptions: [
+      "情報工学の基礎を幅広く学びました。",
+    ]
+  },
+  {
+    term: "2018.4 - 2019.3",
+    title: "Webプロダクト開発",
+    descriptions: [
+      "6人チームで、Webサービスの企画から開発まで行いました。",
+      "アジャイルプロセスやチームビルディング、UXデザイン等のノウハウを学びました。",
+    ]
+  },
+  {
+    term: "2019.4 - 2020.3",
+    title: "機械学習の応用研究",
+    descriptions: [
+      "学会発表や、企業さまとの共同研究、デモアプリ出展を経験しました。",
+    ]
+  },
+  {
+    term: "2020.4 - 2020.11",
+    title: "SIer勤務",
+    descriptions: [
+      "インフラエンジニアとしてプロジェクトに参画し、サーバやMWの基本設計から構築までを担当しました。",
+      "仕事やプロジェクトの進め方、財務知識、実務的なインフラ設計構築を学びました。",
+    ]
+  },
+  {
+    term: " - 2021",
+    title: "現在の取り組み",
+    descriptions: [
+      "フロントエンドの領域を深めて、ユーザファーストを大切にした仕事をすることが私の目標です。",
+      "土台となる技術への理解を深めるため、HTML5プロフェッショナル認定を取得しました。",
+      "また、個人開発を通してモダンなスキルの習得や知識のアウトプットをしています。",
+    ]
+  },
+]
+
 const Computer = () => {
   return (
     <div className="md:mx-16">
@@ -89,23 +132,15 @@ const Computer = () => {
             </div>
             <div className="py-4">
               <ul>
-                <li>
-                  <p>情報理工学科卒業</p>
+                {careers.map((career) => 
+                  <li>
+                  <CareerItem 
+                    term={career.term}
+                    title={career.title}
+                    descriptions={career.descriptions}
+                  />
                 </li>
-                <li>
-                  <p>Webプロダクト開発(6人チーム)</p>
-                </li>
-                <li>
-                  <p>
-                    機械学習の応用研究(学会発表/企業との共同研究/デモアプリ出展)
-                  </p>
-                </li>
-                <li>
-                  <p>SIer勤務(インフラエンジニア)</p>
-                </li>
-                <li>
-                  <p>現在の取り組み</p>
-                </li>
+                )}
               </ul>
             </div>
           </div>
