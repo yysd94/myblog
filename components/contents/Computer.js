@@ -1,10 +1,8 @@
-import { useState } from "react"
 import { Radar, Pie } from "react-chartjs-2";
-import CareerItem from "./CareerItem";
-import {totalSkillData, langData, raderOptions, langOptions, careers} from "./Content";
+import {totalSkillData, langData, raderOptions, langOptions,} from "./Content";
+import Career from "./Career";
 
-const Computer = () => {
-  const [visibleKey, setVisibleKey] = useState(careers.length);
+const Computer = () => {  
   return (
     <div className="md:mx-16">
       <div className="my-16">
@@ -20,19 +18,7 @@ const Computer = () => {
               <p>これまでの経験</p>
             </div>
             <div className="py-4">
-              <ul>
-                {careers.map((career, index) => 
-                  <li key={index} className="py-2" onClick={() => setVisibleKey(index)}>
-                  <CareerItem
-                    itemKey={index}
-                    term={career.term}
-                    title={career.title}
-                    descriptions={career.descriptions}
-                    visibleKey={visibleKey}
-                  />
-                </li>
-                )}
-              </ul>
+              <Career />
             </div>
           </div>
         </div>

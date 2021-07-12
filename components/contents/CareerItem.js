@@ -5,7 +5,6 @@ const CareerItem = (props) => {
         <div>
             <div>{term}</div>
             <div>{title}</div>
-            {console.log(`key= ${itemKey} visibleKey= ${visibleKey}`)}
             {itemKey === visibleKey && 
                 <div>
                 {descriptions.map((description, index) => 
