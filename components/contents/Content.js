@@ -124,7 +124,7 @@ export const skillsets = [
       skills: [
         "コンピュータ・通信の仕組み",
         "Webアプリケーションの仕組み",
-        "オブジェクト指向",
+        "オブジェクト指向プログラミング",
         "プログラミング言語(Java, Python, JavaScript)",
         "データ構造とアルゴリズム",
         "Linuxコマンドライン",
@@ -139,6 +139,7 @@ export const skillsets = [
           "ロジカルシンキング",
           "プロジェクトの遂行経験",
           "テレワーク経験",
+          "基本情報技術者/応用情報技術者 取得",
         ],
     },
     {
@@ -146,18 +147,18 @@ export const skillsets = [
         title: "アプリケーション",
         skills: [
           "SQL, ERモデル設計",
-          "HTML/CSS, Javascript",
-          "フレームワーク(React, Redux, Next, Django(RESTframework), etc)",
+          "HTML/CSS/JavaScript (HTML5レベル2認定プロフェッショナル)",
+          "フレームワーク(React, Redux, Next, Django(rest-framework), etc)",
           "テスト(Jest, msw, Django標準)",
           "CI/CD(Jenkins, versel, Docker)",
-          "Git, Docker",
-          "アジャイル開発経験, Git",
+          "アジャイル開発経験, GitHub Flow",
         ],
     },
     {
         id: 4,
         title: "UI/UX",
         skills: [
+          "UI設計",
           "ペルソナ設計",
           "カスタマージャーニー設計",
           "デザイン思考",
@@ -180,7 +181,7 @@ export const skillsets = [
         skills: [
           "機械学習の基礎理解(クラスタリング、パターン認識、ニューラルネット/深層学習)",
           "SVMを応用した打音検査の自動化システムの開発",
-          "学会発表経験、企業さまと共同研究の経験",
+          "学会発表経験、企業さまとの共同研究経験",
           "出展用デモアプリの作成",
           "ライブラリ使用経験(scikit-learn, tensorflow)",
         ],
