@@ -1,24 +1,30 @@
 import { useState } from 'react'
 import { careers } from "./Content";
-import CareerItem from "./CareerItem";
 
 const Career = () => {
     const [visibleKey, setVisibleKey] = useState(careers.length);
 
     return (
-        <ul>
+        <div>
             {careers.map((career, index) => 
-                <li key={index} className="pb-1" onClick={() => setVisibleKey(index)}>
-                    <CareerItem
-                        itemKey={index}
-                        term={career.term}
-                        title={career.title}
-                        descriptions={career.descriptions}
-                        visibleKey={visibleKey}
-                    />
-                </li>
+                <div key={index} className="pb-1" onClick={() => setVisibleKey(index)}>
+                    <div className="my-2 hover:bg-gray-100">
+                        <div className="p-1">{career.term}</div>
+                        <div className="p-1">{career.title}</div>
+                    </div>
+                    {
+                        index === visibleKey && 
+                        <div className="border border-gray-300 shadow rounded-md p-4 mx-auto">
+                            <div className="">
+                                {career.descriptions.map((description, index) => 
+                                    <p key={index} className="p-1">{description}</p>
+                                )}
+                            </div>
+                        </div>  
+                    }
+                </div>
             )}
-        </ul>
+        </div>
     )
 }
 
