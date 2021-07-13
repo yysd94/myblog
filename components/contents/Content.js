@@ -17,7 +17,7 @@ export const totalSkillData = {
       },
     ],
 };
-  
+
 export const raderOptions = {
     scales: {
       r: {
@@ -57,7 +57,7 @@ export const langData = {
         borderWidth: 1,
       },
     ],
-  };
+};
   
 export const langOptions = {
     plugins: {
@@ -68,7 +68,7 @@ export const langOptions = {
         position: "bottom",
       },
     },
-  };
+};
   
 export const careers = [
     {
@@ -76,7 +76,7 @@ export const careers = [
       title: "情報理工学科卒業",
       descriptions: [
         "情報工学の基礎を幅広く学びました。",
-      ]
+      ],
     },
     {
       term: "2018.4 - 2019.3",
@@ -84,14 +84,14 @@ export const careers = [
       descriptions: [
         "6人チームで、Webサービスの企画から開発まで行いました。",
         "アジャイルプロセスやチームビルディング、UXデザイン等のノウハウを学びました。",
-      ]
+      ],
     },
     {
       term: "2019.4 - 2020.3",
       title: "機械学習の応用研究",
       descriptions: [
         "学会発表や、企業さまとの共同研究、デモアプリ出展を経験しました。",
-      ]
+      ],
     },
     {
       term: "2020.4 - 2020.11",
@@ -99,7 +99,7 @@ export const careers = [
       descriptions: [
         "インフラエンジニアとしてプロジェクトに参画し、サーバやMWの基本設計から構築までを担当しました。",
         "仕事やプロジェクトの進め方、財務知識、実務的なインフラ設計構築を学びました。",
-      ]
+      ],
     },
     {
       term: " - 2021",
@@ -108,6 +108,71 @@ export const careers = [
         "フロントエンドの領域を深めて、ユーザファーストを大切にした仕事をすることが私の目標です。",
         "土台となる技術への理解を深めるため、HTML5プロフェッショナル認定を取得しました。",
         "また、個人開発を通してモダンなスキルの習得や知識のアウトプットをしています。",
-      ]
+      ],
     },
-  ];
+];
+
+export const skillsets = [
+    {
+      title: "コンピュータ基礎",
+      skills: [
+        "コンピュータ・通信の仕組み",
+        "Webアプリケーションの仕組み",
+        "オブジェクト指向",
+        "プログラミング言語(Java, Python, Javascript)",
+        "データ構造とアルゴリズム",
+        "Linuxコマンドライン",
+      ],
+    },
+    {
+        title: "ビジネス",
+        skills: [
+          "PC基本操作",
+          "ビジネスライティング",
+          "ロジカルシンキング",
+          "プロジェクトの遂行経験",
+          "テレワーク経験",
+        ],
+    },
+    {
+        title: "アプリケーション",
+        skills: [
+          "SQL, ERモデル設計",
+          "HTML/CSS, Javascript",
+          "フレームワーク(React, Redux, Next, Django(RESTframework), etc)",
+          "テスト(Jest, msw, Django標準)",
+          "CI/CD(Jenkins, versel, Docker)",
+          "Git, Docker",
+          "アジャイル開発経験, Git",
+        ],
+    },
+    {
+        title: "UI/UX",
+        skills: [
+          "ペルソナ設計",
+          "カスタマージャーニー設計",
+          "デザイン思考",
+          "リーンキャンバス",
+        ],
+    },
+    {
+        title: "インフラ",
+        skills: [
+          "サーバ/ネットワーク構築(実務)",
+          "OS・ミドルウェアの設計(実務)",
+          "シェルスクリプト(実務)",
+          "AWS, Firebase",
+        ],
+    },
+    {
+        title: "AI",
+        skills: [
+          "機械学習の基礎理解(クラスタリング、パターン認識、ニューラルネット/深層学習)",
+          "SVMを応用した打音検査の自動化システムの開発",
+          "学会発表経験、企業さまと共同研究の経験",
+          "出展用デモアプリの作成",
+          "ライブラリ使用経験(scikit-learn, tensorflow)",
+        ],
+    },
+]
+

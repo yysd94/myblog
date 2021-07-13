@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import { useState } from 'react'
 import { careers } from "./Content";
 import CareerItem from "./CareerItem";
 
@@ -8,7 +8,7 @@ const Career = () => {
     return (
         <ul>
             {careers.map((career, index) => 
-                <li key={index} className="py-2" onClick={() => setVisibleKey(index)}>
+                <li key={index} className="pb-1" onClick={() => setVisibleKey(index)}>
                     <CareerItem
                         itemKey={index}
                         term={career.term}
