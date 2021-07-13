@@ -14,14 +14,18 @@ const Computer = () => {
           <p>これまでの経験</p>
         </div>
         <div className="hidden md:block md:my-4 md:col-span-2">
-          <div className="py-4">
+          <div className="my-4">
+            <div className="py-4">
               <p>得意な分野</p>
-          </div>
-          <Radar data={totalSkillData} options={raderOptions} />
-          <div className="py-4">
+            </div>
+            <Radar data={totalSkillData} options={raderOptions} />
+          </div>          
+          <div className="my-4">
+            <div className="py-4">
               <p>得意な言語</p>
-          </div>
-          <Pie data={langData} options={langOptions} />
+            </div>
+            <Pie data={langData} options={langOptions} />
+          </div> 
         </div>
         <div className="m-4 md:col-span-3">
           <div className="py-4 text-xl md:hidden">

@@ -63,7 +63,7 @@ export const langOptions = {
     plugins: {
       legend: {
         labels: {
-          padding: 30,
+          padding: 16,
         },
         position: "bottom",
       },
@@ -72,6 +72,7 @@ export const langOptions = {
   
 export const careers = [
     {
+      id: 1,
       term: "2014.4 - 2020.3",
       title: "情報理工学科卒業",
       descriptions: [
@@ -79,6 +80,7 @@ export const careers = [
       ],
     },
     {
+      id: 2,
       term: "2018.4 - 2019.3",
       title: "Webプロダクト開発",
       descriptions: [
@@ -87,6 +89,7 @@ export const careers = [
       ],
     },
     {
+      id: 3,
       term: "2019.4 - 2020.3",
       title: "機械学習の応用研究",
       descriptions: [
@@ -94,6 +97,7 @@ export const careers = [
       ],
     },
     {
+      id: 4,
       term: "2020.4 - 2020.11",
       title: "SIer勤務",
       descriptions: [
@@ -102,6 +106,7 @@ export const careers = [
       ],
     },
     {
+      id: 5,
       term: " - 2021",
       title: "現在の取り組み",
       descriptions: [
@@ -114,17 +119,19 @@ export const careers = [
 
 export const skillsets = [
     {
+      id: 1,
       title: "コンピュータ基礎",
       skills: [
         "コンピュータ・通信の仕組み",
         "Webアプリケーションの仕組み",
         "オブジェクト指向",
-        "プログラミング言語(Java, Python, Javascript)",
+        "プログラミング言語(Java, Python, JavaScript)",
         "データ構造とアルゴリズム",
         "Linuxコマンドライン",
       ],
     },
-    {
+    {   
+        id: 2,
         title: "ビジネス",
         skills: [
           "PC基本操作",
@@ -135,6 +142,7 @@ export const skillsets = [
         ],
     },
     {
+        id: 3,
         title: "アプリケーション",
         skills: [
           "SQL, ERモデル設計",
@@ -147,6 +155,7 @@ export const skillsets = [
         ],
     },
     {
+        id: 4,
         title: "UI/UX",
         skills: [
           "ペルソナ設計",
@@ -156,6 +165,7 @@ export const skillsets = [
         ],
     },
     {
+        id: 5,
         title: "インフラ",
         skills: [
           "サーバ/ネットワーク構築(実務)",
@@ -165,6 +175,7 @@ export const skillsets = [
         ],
     },
     {
+        id: 6,
         title: "AI",
         skills: [
           "機械学習の基礎理解(クラスタリング、パターン認識、ニューラルネット/深層学習)",

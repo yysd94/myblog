@@ -2,18 +2,18 @@ import { useState } from 'react';
 import { skillsets } from "./Content";
 
 const Skillset = () => {
-    const [visibleKey, setVisibleKey] = useState(0);
+    const [visibleKey, setVisibleKey] = useState(1);
 
     return (
         <div>
             <div className="md:hidden">
-            {skillsets.map((skillset, index) => 
-                <div className="pb-1" onClick={() => setVisibleKey(index)}>
+            {skillsets.map((skillset) => 
+                <div key={skillset.id} className="pb-1" onClick={() => setVisibleKey(skillset.id)}>
                     <div className="my-2 hover:bg-gray-100">
                         <div className="p-1">{skillset.title}</div>
                     </div>
                     {
-                        index === visibleKey && 
+                        skillset.id === visibleKey && 
                         <div className="border border-gray-300 shadow rounded-md p-4 mx-auto">
                             {skillset.skills.map((skill, index) => 
                                 <div key={index} className="p-1">{skill}</div>
@@ -27,15 +27,15 @@ const Skillset = () => {
                 <div>
                     <div className="bg-gray-100 mb-2">
                         <div className="p-2 flex justify-center space-x-4">
-                            {skillsets.map((skillset, index) => 
-                                <div key={index}>
-                                    {index === visibleKey ? 
-                                    <div className="bg-gray-200" onClick={() => setVisibleKey(index)}>
+                            {skillsets.map((skillset) => 
+                                <div key={skillset.id}>
+                                    {skillset.id === visibleKey ? 
+                                    <div className="bg-gray-200" onClick={() => setVisibleKey(skillset.id)}>
                                         <div className="p-2">
                                             {skillset.title}
                                         </div>
                                     </div> :
-                                    <div className="" onClick={() => setVisibleKey(index)}>
+                                    <div className="" onClick={() => setVisibleKey(skillset.id)}>
                                         <div className="p-2">
                                             {skillset.title}
                                         </div>
@@ -45,7 +45,7 @@ const Skillset = () => {
                         </div>  
                     </div>
                     <div className="my-4 border border-gray-300 shadow rounded-md py-4 mx-auto">
-                        {skillsets[visibleKey].skills.map((skill, index) => 
+                        {skillsets[(visibleKey - 1)].skills.map((skill, index) => 
                             <div key={index} className="p-1">{skill}</div>
                         )}
                     </div>
