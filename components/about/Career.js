@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { careers } from "./Content";
+import { careers } from "../contents/Content";
 
 const Career = () => {
   const [visibleKey, setVisibleKey] = useState(0);

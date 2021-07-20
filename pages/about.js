@@ -1,7 +1,7 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Layout from "../components/Layout";
-import Detail from "../components/Detail";
-import Sammary from "../components/Sammary";
+import Detail from "../components/about/Detail";
+import Sammary from "../components/about/Sammary";
 
 const About = () => {
   const [isDetail, setIsDetail] = useState(false);

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const Sammary = (props) => {
+const AboutSammary = (props) => {
   const { changeViewMode } = props;
 
   return (
@@ -70,4 +70,4 @@ const Sammary = (props) => {
   );
 };
 
-export default Sammary;
+export default AboutSammary;

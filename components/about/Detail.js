@@ -1,7 +1,7 @@
-import Computer from "./contents/Computer";
-import Music from "./contents/Music";
+import Computer from "./Computer";
+import Music from "./Music";
 
-const Detail = (props) => {
+const AboutDetail = (props) => {
   const { contentIndex, changeViewMode } = props;
   return (
     <div className="my-4 py-4 w-screen flex flex-col place-content-between">
@@ -19,4 +19,4 @@ const Detail = (props) => {
   );
 };
 
-export default Detail;
+export default AboutDetail;

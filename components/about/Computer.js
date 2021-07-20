@@ -1,5 +1,10 @@
 import { Radar, Pie } from "react-chartjs-2";
-import { totalSkillData, langData, raderOptions, langOptions } from "./Content";
+import {
+  totalSkillData,
+  langData,
+  raderOptions,
+  langOptions,
+} from "../contents/Content";
 import Career from "./Career";
 import Skillset from "./Skillset";
 

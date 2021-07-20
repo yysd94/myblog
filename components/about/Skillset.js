@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { skillsets } from "./Content";
+import { skillsets } from "../contents/Content";
 
 const Skillset = () => {
   const [visibleKey, setVisibleKey] = useState(1);
