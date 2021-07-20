@@ -5,6 +5,9 @@ const AboutSammary = (props) => {
 
   return (
     <div className="lg:grid lg:grid-cols-2 lg:gap-12 lg:mx-16">
+      <div className="my-16 pt-16 lg:col-span-2">
+        <p className="text-4xl">About Me</p>
+      </div>
       <div className="my-4 p-4 flex flex-col place-content-between lg:col-span-1">
         <div className="">
           <div className="flex justify-center">
