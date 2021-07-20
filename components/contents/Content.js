@@ -187,3 +187,41 @@ export const skillsets = [
     ],
   },
 ];
+
+export const socialLinks = [
+  {
+    id: 1,
+    title: "Twitter",
+    url: "https://twitter.com/yu_bon94",
+    iconImage: "",
+    description: "日々の出来事や、興味のある技術、趣味について呟きます",
+  },
+  {
+    id: 2,
+    title: "Github",
+    url: "https://github.com/Yubon94",
+    iconImage: "",
+    description: "開発したものをgithubで管理しています。",
+  },
+  {
+    id: 3,
+    title: "Youtube",
+    url: "https://www.youtube.com/channel/UCXUGCY4Vnmjk5CoUcqUmCjA/featured",
+    iconImage: "",
+    description: "自作曲や音楽のことを発信するチャンネルです。",
+  },
+  {
+    id: 4,
+    title: "Qiita",
+    url: "",
+    iconImage: "",
+    description: "勉強したり興味を持った技術を記事にまとめています。",
+  },
+  {
+    id: 5,
+    title: "Wantedly",
+    url: "",
+    iconImage: "",
+    description: "経歴ややってみたい仕事をまとめています。",
+  },
+];
