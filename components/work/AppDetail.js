@@ -8,7 +8,7 @@ const AppDetail = (props) => {
 
   return (
     <div>
-      <div className="my-4 py-4 w-screen flex flex-col justify-center">
+      <div className="my-4 py-4 flex flex-col justify-center">
         {works.map(
           (work) =>
             contentIndex === work.id && (
@@ -52,7 +52,9 @@ const AppDetail = (props) => {
                   <div>
                     <p className="text-lg">使用技術</p>
                   </div>
-                  <Tech techs={work.detail.techs} />
+                  <div className="m-4">
+                    <Tech techs={work.detail.techs} />
+                  </div>
                 </div>
               </div>
             )

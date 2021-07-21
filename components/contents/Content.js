@@ -252,7 +252,7 @@ export const works = [
         {
           id: 2,
           name: "Backend",
-          contents: ["無し"],
+          contents: [""],
         },
         {
           id: 3,

@@ -14,7 +14,7 @@ const Tech = (props) => {
       {techs.map((tech) => (
         <div
           key={tech.id}
-          className="pb-1 xl:pb-8 xl:text-lg"
+          className="xl:text-lg"
           onClick={() => visibleChange(tech.id)}
         >
           {tech.id === visibleKey ? (
