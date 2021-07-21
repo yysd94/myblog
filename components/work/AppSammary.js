@@ -8,14 +8,13 @@ const AppSammary = (props) => {
 
   return (
     <div>
-      <p>AppSammary</p>
       {works.map((work) => (
         <div key={work.id} className="my-4 p-4">
           <div className="">
             <div className="flex justify-center">
               <Image
                 className=""
-                src="/home-piano.jpg"
+                src={work.imageSrc}
                 width={270}
                 height={200}
                 alt="background-image"
@@ -28,7 +27,7 @@ const AppSammary = (props) => {
               </div>
             ))}
           </div>
-          <div className="my-8 pb-8 border-b-2">
+          <div className="my-8 pb-8">
             <button
               className="bg-gray-800 text-gray-300 hover:bg-gray-700 px-3 py-2 rounded"
               onClick={() => changeViewMode(1)}
