@@ -32,9 +32,11 @@ const Work = () => {
               <p className="text-2xl">Application</p>
             </div>
             <AppSammary changeViewMode={(index) => toDetailMode(index)} />
-            <div className="my-8">
+
+            {/* Musicページは余裕ができたタイミングで追加作成予定 */}
+            {/* <div className="my-8">
               <p className="text-2xl">Music</p>
-            </div>
+            </div> */}
           </div>
         )}
       </div>
