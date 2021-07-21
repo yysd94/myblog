@@ -13,7 +13,7 @@ const AboutSammary = (props) => {
           <div className="flex justify-center">
             <Image
               className=""
-              src="/home-piano.jpg"
+              src="/pc-image.jpg"
               width={270}
               height={200}
               alt="background-image"
@@ -47,7 +47,7 @@ const AboutSammary = (props) => {
           <div className="flex justify-center">
             <Image
               className=""
-              src="/home-piano.jpg"
+              src="/piano-image.jpg"
               width={270}
               height={200}
               alt="background-image"

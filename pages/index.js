@@ -67,7 +67,7 @@ export default function Home() {
             <div className="flex justify-center">
               <Image
                 className=""
-                src="/home-piano.jpg"
+                src="/piano-image.jpg"
                 width={270}
                 height={200}
                 alt="background-image"

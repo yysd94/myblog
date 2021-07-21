@@ -211,16 +211,9 @@ export const socialLinks = [
   {
     id: 4,
     title: "Qiita",
-    url: "",
-    iconImage: "",
+    url: "https://qiita.com/YasudaYu",
+    iconImage: "/qiita-logo.png",
     description: "勉強したり興味を持った技術を記事にまとめています。",
-  },
-  {
-    id: 5,
-    title: "Wantedly",
-    url: "",
-    iconImage: "",
-    description: "経歴ややってみたい仕事をまとめています。",
   },
 ];
 
