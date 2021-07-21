@@ -236,16 +236,35 @@ export const works = [
       ],
     },
     detail: {
-      title: "",
-      term: "",
-      aim: "",
-      features: [""],
-      tech: {
-        ui: [""],
-        backend: [""],
-        cicd: [""],
-        others: [""],
-      },
+      title: "My Homepage",
+      term: "2021.06 - 2021.07",
+      aim: "自分のことをより深く分かりやすく知ってもらうため、一から自作しました",
+      features: [
+        "キャリアの指向性を直感的に伝えるために、プロフィールにチャートを利用",
+        "静的サイトジェネレータやレスポンシブデザインに挑戦",
+      ],
+      techs: [
+        {
+          id: 1,
+          name: "UI",
+          contents: ["Next.js", "tailwind css", "chart.js"],
+        },
+        {
+          id: 2,
+          name: "Backend",
+          contents: ["無し"],
+        },
+        {
+          id: 3,
+          name: "CI/CD",
+          contents: ["react-testing-library", "docker", "vercel"],
+        },
+        {
+          id: 4,
+          name: "Others",
+          contents: ["レスポンシブデザイン"],
+        },
+      ],
     },
   },
   {
@@ -259,16 +278,32 @@ export const works = [
       ],
     },
     detail: {
-      title: "",
+      title: "Sample 2",
       term: "",
       aim: "",
       features: [""],
-      tech: {
-        ui: [""],
-        backend: [""],
-        cicd: [""],
-        others: [""],
-      },
+      techs: [
+        {
+          id: 1,
+          name: "UI",
+          contents: ["Next.js", "tailwind css", "chart.js"],
+        },
+        {
+          id: 2,
+          name: "Backend",
+          contents: [""],
+        },
+        {
+          id: 3,
+          name: "CI/CD",
+          contents: [""],
+        },
+        {
+          id: 4,
+          name: "Others",
+          contents: [""],
+        },
+      ],
     },
   },
 ];
