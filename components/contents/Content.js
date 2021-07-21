@@ -206,7 +206,7 @@ export const socialLinks = [
     title: "Youtube",
     url: "https://www.youtube.com/channel/UCXUGCY4Vnmjk5CoUcqUmCjA/featured",
     iconImage: "",
-    description: "自作曲や音楽のことを発信するチャンネルです。",
+    description: "音楽ネタや自作曲を発信するチャンネルです。",
   },
   {
     id: 4,
