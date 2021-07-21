@@ -9,7 +9,10 @@ const AppSammary = (props) => {
   return (
     <div>
       {works.map((work) => (
-        <div key={work.id} className="my-4 p-4">
+        <div
+          key={work.id}
+          className="border border-gray-300 shadow rounded-md mx-4 mt-4 mb-8 p-4"
+        >
           <div className="">
             <div className="flex justify-center">
               <Image

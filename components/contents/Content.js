@@ -236,4 +236,13 @@ export const works = [
       "静的サイトジェネレータ(next)やレスポンシブデザインに挑戦しました。",
     ],
   },
+  {
+    id: 2,
+    title: "My Homepage",
+    imageSrc: "/my-homepage.jpg",
+    descriptions: [
+      "自分のことをより深く分かりやすく知ってもらうため、一から自作しました。",
+      "静的サイトジェネレータ(next)やレスポンシブデザインに挑戦しました。",
+    ],
+  },
 ];
