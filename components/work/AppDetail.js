@@ -59,7 +59,7 @@ const AppDetail = (props) => {
               </div>
             )
         )}
-        <div className="mt-8 pb-8 border-b-2">
+        <div className="mt-8 pb-8">
           <button
             className="bg-gray-800 text-gray-300 hover:bg-gray-700 px-3 py-2 rounded"
             onClick={changeViewMode}

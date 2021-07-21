@@ -267,43 +267,40 @@ export const works = [
       ],
     },
   },
-  {
-    id: 2,
-    sammary: {
-      title: "My Homepage",
-      imageSrc: "/my-homepage.jpg",
-      descriptions: [
-        "自分のことをより深く分かりやすく知ってもらうため、一から自作しました。",
-        "静的サイトジェネレータ(next)やレスポンシブデザインに挑戦しました。",
-      ],
-    },
-    detail: {
-      title: "Sample 2",
-      term: "",
-      aim: "",
-      features: [""],
-      techs: [
-        {
-          id: 1,
-          name: "UI",
-          contents: ["Next.js", "tailwind css", "chart.js"],
-        },
-        {
-          id: 2,
-          name: "Backend",
-          contents: [""],
-        },
-        {
-          id: 3,
-          name: "CI/CD",
-          contents: [""],
-        },
-        {
-          id: 4,
-          name: "Others",
-          contents: [""],
-        },
-      ],
-    },
-  },
+  // {
+  //   id: 2,
+  //   sammary: {
+  //     title: "My Homepage",
+  //     imageSrc: "/my-homepage.jpg",
+  //     descriptions: ["descriptionのサンプルです"],
+  //   },
+  //   detail: {
+  //     title: "Sample",
+  //     term: "",
+  //     aim: "",
+  //     features: [""],
+  //     techs: [
+  //       {
+  //         id: 1,
+  //         name: "UI",
+  //         contents: ["Next.js", "tailwind css", "chart.js"],
+  //       },
+  //       {
+  //         id: 2,
+  //         name: "Backend",
+  //         contents: [""],
+  //       },
+  //       {
+  //         id: 3,
+  //         name: "CI/CD",
+  //         contents: [""],
+  //       },
+  //       {
+  //         id: 4,
+  //         name: "Others",
+  //         contents: [""],
+  //       },
+  //     ],
+  //   },
+  // },
 ];

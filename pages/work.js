@@ -27,9 +27,9 @@ const Work = () => {
             changeViewMode={() => toSammaryMode()}
           />
         ) : (
-          <div>
+          <div className="my-8">
             <div className="my-8">
-              <p className="text-2xl">Application</p>
+              <p className="text-2xl">Web Design</p>
             </div>
             <AppSammary changeViewMode={(index) => toDetailMode(index)} />
 

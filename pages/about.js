@@ -17,6 +17,9 @@ const About = () => {
   return (
     <Layout title="About">
       <div className="text-center h-full flex flex-col justify-center rounded">
+        <div className="my-16 pt-16">
+          <p className="text-4xl">About Me</p>
+        </div>
         {isDetail ? (
           <Detail
             contentIndex={contentIndex}
