@@ -139,16 +139,16 @@ export const skillsets = [
       "ロジカルシンキング",
       "プロジェクトの遂行経験",
       "テレワーク経験",
-      "基本情報技術者/応用情報技術者 取得",
+      "基本情報技術者/応用情報技術者",
     ],
   },
   {
     id: 3,
     title: "アプリケーション",
     skills: [
-      "SQL, ERモデル設計",
       "HTML/CSS/JavaScript (HTML5レベル2認定プロフェッショナル)",
-      "フレームワーク(React, Redux, Next, Django(rest-framework), etc)",
+      "フレームワーク(React, Redux, Next, Django(rest-framework), 等)",
+      "SQL, ERモデル設計, RESTful API設計",
       "テスト(Jest, msw, Django標準)",
       "CI/CD(Jenkins, versel, Docker)",
       "アジャイル開発経験, GitHub Flow",
@@ -223,5 +223,16 @@ export const socialLinks = [
     url: "",
     iconImage: "",
     description: "経歴ややってみたい仕事をまとめています。",
+  },
+];
+
+export const works = [
+  {
+    id: 1,
+    title: "My Homepage",
+    descriptions: [
+      "自分のことをより深く分かりやすく知ってもらうため、一から自作しました。",
+      "静的サイトジェネレータ(next)やレスポンシブデザインに挑戦しました。",
+    ],
   },
 ];
