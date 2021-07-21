@@ -34,7 +34,6 @@ export const raderOptions = {
       position: "bottom",
     },
   },
-  // maintainAspectRatio: false,
 };
 
 export const langData = {
@@ -69,7 +68,6 @@ export const langOptions = {
       position: "bottom",
     },
   },
-  // maintainAspectRatio: false,
 };
 
 export const careers = [
@@ -229,20 +227,48 @@ export const socialLinks = [
 export const works = [
   {
     id: 1,
-    title: "My Homepage",
-    imageSrc: "/my-homepage.jpg",
-    descriptions: [
-      "自分のことをより深く分かりやすく知ってもらうため、一から自作しました。",
-      "静的サイトジェネレータ(next)やレスポンシブデザインに挑戦しました。",
-    ],
+    sammary: {
+      title: "My Homepage",
+      imageSrc: "/my-homepage.jpg",
+      descriptions: [
+        "自分のことをより深く分かりやすく知ってもらうため、一から自作しました。",
+        "静的サイトジェネレータ(next)やレスポンシブデザインに挑戦しました。",
+      ],
+    },
+    detail: {
+      title: "",
+      term: "",
+      aim: "",
+      features: [""],
+      tech: {
+        ui: [""],
+        backend: [""],
+        cicd: [""],
+        others: [""],
+      },
+    },
   },
   {
     id: 2,
-    title: "My Homepage",
-    imageSrc: "/my-homepage.jpg",
-    descriptions: [
-      "自分のことをより深く分かりやすく知ってもらうため、一から自作しました。",
-      "静的サイトジェネレータ(next)やレスポンシブデザインに挑戦しました。",
-    ],
+    sammary: {
+      title: "My Homepage",
+      imageSrc: "/my-homepage.jpg",
+      descriptions: [
+        "自分のことをより深く分かりやすく知ってもらうため、一から自作しました。",
+        "静的サイトジェネレータ(next)やレスポンシブデザインに挑戦しました。",
+      ],
+    },
+    detail: {
+      title: "",
+      term: "",
+      aim: "",
+      features: [""],
+      tech: {
+        ui: [""],
+        backend: [""],
+        cicd: [""],
+        others: [""],
+      },
+    },
   },
 ];
