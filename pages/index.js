@@ -63,7 +63,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="mt-0">
+          <div className="hidden md:block md:mt-0">
             <div className="flex justify-center">
               <Image
                 className=""
