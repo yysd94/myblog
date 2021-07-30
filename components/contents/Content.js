@@ -148,7 +148,7 @@ export const skillsets = [
       "フレームワーク(React, Redux, Next, Django(rest-framework), 等)",
       "SQL, ERモデル設計, RESTful API設計",
       "テスト(Jest, msw, Django標準)",
-      "CI/CD(Jenkins, versel, Docker)",
+      "CI/CD(Jenkins, Vercel, Docker)",
       "アジャイル開発経験, GitHub Flow",
     ],
   },
@@ -240,17 +240,17 @@ export const works = [
         {
           id: 1,
           name: "UI",
-          contents: ["Next.js", "tailwind css", "chart.js"],
+          contents: ["Next.js", "Tailwind css", "Chart.js"],
         },
         {
           id: 2,
           name: "Backend",
-          contents: [""],
+          contents: ["None"],
         },
         {
           id: 3,
           name: "CI/CD",
-          contents: ["react-testing-library", "docker", "vercel"],
+          contents: ["react-testing-library", "Docker", "Vercel"],
         },
         {
           id: 4,
