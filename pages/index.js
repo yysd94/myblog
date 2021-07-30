@@ -64,7 +64,7 @@ export default function Home() {
             </div>
           </div>
           {/* <div className="hidden md:block md:mt-0"> */}
-          <div className="">
+          {/* <div className="">
             <div className="flex justify-center">
               <Image
                 className=""
@@ -75,7 +75,7 @@ export default function Home() {
                 alt="background-image"
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </Layout>
