@@ -7,7 +7,7 @@ const AboutSammary = (props) => {
     <div className="lg:grid lg:grid-cols-2 lg:gap-12 lg:mx-16">
       <div className="my-4 p-4 flex flex-col place-content-between lg:col-span-1">
         <div className="">
-          {/* <div className="flex justify-center">
+          <div className="flex justify-center">
             <Image
               className=""
               src="/pc-image.jpg"
@@ -16,7 +16,7 @@ const AboutSammary = (props) => {
               layout={"intrinsic"}
               alt="background-image"
             />
-          </div> */}
+          </div>
           <div className="pt-8 text-lg">I love</div>
           <div className="my-4 pb-8 text-xl">software engineering</div>
           <div className="mt-4">
@@ -42,7 +42,7 @@ const AboutSammary = (props) => {
       </div>
       <div className="my-4 p-4 flex flex-col place-content-between lg:col-span-1">
         <div className="">
-          {/* <div className="flex justify-center">
+          <div className="flex justify-center">
             <Image
               className=""
               src="/piano-image.jpg"
@@ -51,7 +51,7 @@ const AboutSammary = (props) => {
               layout={"intrinsic"}
               alt="background-image"
             />
-          </div> */}
+          </div>
           <div className="pt-8 text-lg">I play</div>
           <div className="my-4 pb-8 text-xl">music and the piano</div>
           <div className="mt-4">
