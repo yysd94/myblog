@@ -6,7 +6,7 @@ import { socialLinks } from "../contents/Content";
 const SocialLink = () => {
   return (
     <div>
-      <div className="text-center h-full flex flex-col justify-center rounded md:mb-16">
+      <div className="text-center h-full flex flex-col justify-center rounded mb-8">
         {socialLinks.map((socialLink) => (
           <div key={socialLink.id} className="m-4 md:m-8">
             {socialLink.iconImage !== "" ? (
