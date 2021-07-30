@@ -16,6 +16,7 @@ const AboutSammary = (props) => {
               src="/pc-image.jpg"
               width={270}
               height={200}
+              layout={"intrinsic"}
               alt="background-image"
             />
           </div>
@@ -50,6 +51,7 @@ const AboutSammary = (props) => {
               src="/piano-image.jpg"
               width={270}
               height={200}
+              layout={"intrinsic"}
               alt="background-image"
             />
           </div>
