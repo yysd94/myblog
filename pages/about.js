@@ -7,12 +7,20 @@ const About = () => {
   const [isDetail, setIsDetail] = useState(false);
   const [contentIndex, setContentIndex] = useState(1);
 
+  const returnTop = () => {
+    window.scrollTo({
+      top: 0,
+    });
+  };
+
   const toSammaryMode = () => {
     setIsDetail(false);
+    returnTop();
   };
   const toDetailMode = (index) => {
     setContentIndex(index);
     setIsDetail(true);
+    returnTop();
   };
   return (
     <Layout title="About">
