@@ -1,43 +1,14 @@
-// import { useState } from "react";
 import Layout from "../components/Layout";
-// import Detail from "../components/about/Detail";
-// import Sammary from "../components/about/Sammary";
 import Link from "next/link";
 import Image from "next/image";
 
 const About = () => {
-  // const [isDetail, setIsDetail] = useState(false);
-  // const [contentIndex, setContentIndex] = useState(1);
-
-  // const returnTop = () => {
-  //   window.scrollTo({
-  //     top: 0,
-  //   });
-  // };
-
-  // const toSammaryMode = () => {
-  //   setIsDetail(false);
-  //   returnTop();
-  // };
-  // const toDetailMode = (index) => {
-  //   setContentIndex(index);
-  //   setIsDetail(true);
-  //   returnTop();
-  // };
   return (
     <Layout title="About">
       <div className="text-center h-full flex flex-col justify-center rounded">
         <div className="my-16 pt-16">
           <p className="text-4xl">About Me</p>
         </div>
-        {/* {isDetail ? (
-          <Detail
-            contentIndex={contentIndex}
-            changeViewMode={() => toSammaryMode()}
-          />
-        ) : (
-          <Sammary changeViewMode={(index) => toDetailMode(index)} />
-        )} */}
         <div className="lg:grid lg:grid-cols-2 lg:gap-12 lg:mx-16">
           <div className="my-4 p-4 flex flex-col place-content-between lg:col-span-1">
             <div className="">
@@ -60,17 +31,14 @@ const About = () => {
                 </p>
                 <p className="my-4">
                   最近は、Webフロントエンド技術とUXデザインに
-                  <br />
-                  関心があり勉強中です。
+                  <br className="md:hidden" />
+                  関心があります。
                 </p>
               </div>
             </div>
             <div className="my-8 pb-8 border-b-2">
               <Link href="/about/engineering">
-                <a
-                  className="bg-gray-800 text-gray-300 hover:bg-gray-700 px-3 py-2 rounded"
-                  // onClick={() => changeViewMode(1)}
-                >
+                <a className="bg-gray-800 text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
                   詳細
                 </a>
               </Link>
@@ -92,15 +60,12 @@ const About = () => {
               <div className="my-4 pb-8 text-xl">music and the piano</div>
               <div className="mt-4">
                 <p className="my-4">音楽とピアノが好きです。</p>
-                <p className="my-4">ジャズピアノの演奏や作曲をします。</p>
+                <p className="my-4">ジャズピアノの演奏や作編曲をします。</p>
               </div>
             </div>
             <div className="my-8 pb-8 border-b-2">
               <Link href="/about/music">
-                <a
-                  className="bg-gray-800 text-gray-300 hover:bg-gray-700 px-3 py-2 rounded"
-                  // onClick={() => changeViewMode(2)}
-                >
+                <a className="bg-gray-800 text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
                   詳細
                 </a>
               </Link>

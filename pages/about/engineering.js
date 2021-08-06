@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Radar, Pie } from "react-chartjs-2";
 import {
   totalSkillData,
@@ -5,10 +6,9 @@ import {
   raderOptions,
   langOptions,
 } from "../../components/contents/Content";
+import Layout from "../../components/Layout";
 import Career from "../../components/about/Career";
 import Skillset from "../../components/about/Skillset";
-import Layout from "../../components/Layout";
-import Link from "next/link";
 
 const Engineering = () => {
   return (
