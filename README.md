@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 概要
+Yubon94のオリジナルポートフォリオサイトです。
+URL: https://yublog-brown.vercel.app/
 
 ## Getting Started
 
