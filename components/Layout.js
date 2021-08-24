@@ -6,6 +6,7 @@ export default function Layout({ children, title = "HP by Nextjs" }) {
     <div className="flex flex-col justify-center items-center min-h-screen text-gray-600 text-sm font-mono">
       <Head>
         <title>{title}</title>
+        <link rel="shortcut icon" href="favicon.ico" />
       </Head>
       <header>
         <nav className="bg-gray-800 w-screen">
