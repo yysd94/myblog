@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <Layout title="Yu's Blog - About">
+    <Layout title="Yu's Home - About">
       <div className="text-center h-full flex flex-col justify-center rounded">
         <div className="my-16 pt-16">
           <p className="text-4xl">About Me</p>
