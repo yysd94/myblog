@@ -20,7 +20,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="flex justify-center mt-4">
-                    <p className="font-bold text-4xl">YU</p>
+                    <p className="font-bold text-4xl">Yu</p>
                   </div>
                 </div>
               </div>

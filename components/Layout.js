@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Layout({ children, title = "HP by Nextjs" }) {
   return (
@@ -39,18 +38,39 @@ export default function Layout({ children, title = "HP by Nextjs" }) {
       <main className="flex flex-1 justify-center items-center flex-col w-screen">
         {children}
       </main>
-      <footer className="w-full h-12 flex justify-center items-center">
-        <a
-          className="flex items-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <span className="h-4 ml-2">
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+      <footer className="w-full h-24 flex justify-center items-center">
+        <div className="flex flex-col justify-center items-center ">
+          <div className="">
+            <a
+              className="flex items-center"
+              href="https://github.com/Yubon94"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {"© 2020 Yu"}
+            </a>
+          </div>
+          <div className="">
+            <a
+              className="flex items-center"
+              href="https://opensource.org/licenses/mit-license.php"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {"Source code licensed MIT."}
+            </a>
+          </div>
+          <div className="">
+            <a
+              className="flex items-center"
+              href="https://creativecommons.org/licenses/by-nc-nd/3.0/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {"Website Content licensed CC BY-NC-ND 3.0."}
+            </a>
+          </div>
+        </div>
       </footer>
     </div>
   );
