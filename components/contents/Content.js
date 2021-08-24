@@ -213,7 +213,7 @@ export const socialLinks = [
     title: "Qiita",
     url: "https://qiita.com/YasudaYu",
     iconImage: "/qiita-logo.png",
-    description: "勉強したり興味を持った技術を記事にまとめています。",
+    description: "勉強したり興味を持った技術をまとめています。",
   },
 ];
 
