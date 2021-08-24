@@ -6,7 +6,7 @@ const Skillset = () => {
 
   return (
     <div>
-      <div className="md:hidden xl:text-lg">
+      <div className="md:hidden">
         {skillsets.map((skillset) => (
           <div
             key={skillset.id}
@@ -28,9 +28,9 @@ const Skillset = () => {
           </div>
         ))}
       </div>
-      <div className="hidden md:block md:flex md:justify-center xl:text-lg">
+      <div className="hidden md:block md:flex md:justify-center">
         <div>
-          <div className="bg-gray-100 mb-2">
+          <div className="bg-gray-100 mb-2 lg:text-lg">
             <div className="p-2 flex justify-center space-x-4">
               {skillsets.map((skillset) => (
                 <div key={skillset.id}>

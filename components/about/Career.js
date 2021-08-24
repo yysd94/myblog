@@ -13,12 +13,12 @@ const Career = () => {
       {careers.map((career) => (
         <div
           key={career.id}
-          className="pb-1 xl:pb-8 xl:text-lg"
+          className="pb-1 xl:pb-8"
           onClick={() => visibleChange(career.id)}
         >
           {career.id === visibleKey ? (
             <div>
-              <div className="my-2 bg-gray-100">
+              <div className="my-2 bg-gray-100 lg:text-lg ">
                 <div className="p-1">{career.term}</div>
                 <div className="p-1">{career.title}</div>
                 <div className="flex justify-center items-center">
@@ -37,17 +37,15 @@ const Career = () => {
                 </div>
               </div>
               <div className="border border-gray-300 shadow rounded-md p-4 mx-auto">
-                <div className="">
-                  {career.descriptions.map((description, index) => (
-                    <p key={index} className="p-1">
-                      {description}
-                    </p>
-                  ))}
-                </div>
+                {career.descriptions.map((description, index) => (
+                  <div key={index} className="p-1">
+                    {description}
+                  </div>
+                ))}
               </div>
             </div>
           ) : (
-            <div className="my-2 hover:bg-gray-100">
+            <div className="my-2 hover:bg-gray-100 lg:text-lg ">
               <div className="p-1">{career.term}</div>
               <div className="p-1">{career.title}</div>
               <div className="flex justify-center items-center">

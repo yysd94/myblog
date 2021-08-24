@@ -17,31 +17,34 @@ const Engineering = () => {
         <div className="my-16 pt-16">
           <p className="text-4xl">About Me</p>
         </div>
-        <div className="my-4 py-4 w-screen flex flex-col place-content-between">
+        <div className="my-4 py-4 w-screen flex flex-col place-content-between items-center">
           {/* ページタイトル */}
           <div className="my-16">
             <p className="text-2xl">Engineering</p>
           </div>
 
           {/* コンテンツ */}
-          <div className="flex flex-col justify-center items-center md:px-16">
-            <div className="m-4 md:w-full md:flex md:justify-center">
+          <div className="w-full flex flex-col justify-center items-center px-4 md:px-16 md:max-w-screen-md lg:max-w-screen-lg">
+            {/* キャリア表示部分 */}
+            <div className="w-full md:flex md:justify-center lg:w-5/6">
               {/* 大画面の場合、レーダーチャートを左に、キャリアを右に表示するようにする。 */}
-              <div className="hidden chart-container md:block md:w-1/2 md:px-8">
-                <div className="my-4 xl:pl-32">
-                  <div className="py-4 xl:text-lg">
-                    <p>得意な分野</p>
+              <div className="hidden chart-container md:block md:w-1/2">
+                <div className="md:px-8">
+                  <div className="my-4">
+                    <div className="py-4 lg:text-lg">
+                      <p>得意な分野</p>
+                    </div>
+                    <div>
+                      <Radar data={totalSkillData} options={raderOptions} />
+                    </div>
                   </div>
-                  <div>
-                    <Radar data={totalSkillData} options={raderOptions} />
-                  </div>
-                </div>
-                <div className="my-4 pt-2 xl:pl-32">
-                  <div className="py-4 xl:text-lg">
-                    <p>得意な言語</p>
-                  </div>
-                  <div>
-                    <Pie data={langData} options={langOptions} />
+                  <div className="my-4 pt-2">
+                    <div className="py-4 lg:text-lg">
+                      <p>得意な言語</p>
+                    </div>
+                    <div>
+                      <Pie data={langData} options={langOptions} />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -55,7 +58,8 @@ const Engineering = () => {
               </div>
             </div>
 
-            <div className="m-4">
+            {/* スキルセット表示部分 */}
+            <div className="w-full">
               <div className="hidden md:block md:mt-8 md:text-xl">
                 <p className="py-8">経験した技術</p>
               </div>
