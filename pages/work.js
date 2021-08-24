@@ -24,7 +24,7 @@ const Work = () => {
   };
 
   return (
-    <Layout title="Work">
+    <Layout title="Yu's Blog - Work">
       <div className="my-16 pt-16">
         <p className="text-4xl">Works</p>
       </div>
