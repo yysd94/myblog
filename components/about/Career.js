@@ -13,7 +13,7 @@ const Career = () => {
       {careers.map((career) => (
         <div
           key={career.id}
-          className="pb-1 xl:pb-8"
+          className="pb-2 md:pb-3 lg:pb-4"
           onClick={() => visibleChange(career.id)}
         >
           {career.id === visibleKey ? (
@@ -45,7 +45,7 @@ const Career = () => {
               </div>
             </div>
           ) : (
-            <div className="my-2 hover:bg-gray-100 lg:text-lg ">
+            <div className="my-2 hover:bg-gray-100 lg:text-lg">
               <div className="p-1">{career.term}</div>
               <div className="p-1">{career.title}</div>
               <div className="flex justify-center items-center">

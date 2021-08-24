@@ -29,7 +29,7 @@ const Engineering = () => {
             <div className="w-full md:flex md:justify-center lg:w-5/6">
               {/* 大画面の場合、レーダーチャートを左に、キャリアを右に表示するようにする。 */}
               <div className="hidden chart-container md:block md:w-1/2">
-                <div className="md:px-8">
+                <div className="md:px-8 lg:pl-8 lg:pr-16">
                   <div className="my-4">
                     <div className="py-4 lg:text-lg">
                       <p>得意な分野</p>
