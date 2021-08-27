@@ -1,4 +1,4 @@
-export const totalSkillData = {
+export const totalEngineerSkillData = {
   labels: ["コンピュータ基礎", "ビジネス", "アプリ", "UI/UX", "インフラ", "AI"],
   datasets: [
     {
@@ -17,12 +17,60 @@ export const totalSkillData = {
     },
   ],
 };
+export const totalMusicSkillData = {
+  labels: [
+    "クラシック",
+    "ジャズ",
+    "ポップ/ロック",
+    "ワールド",
+    "エレクトロ",
+    "その他",
+  ],
+  datasets: [
+    {
+      label: "得意",
+      data: [6, 8, 4, 4, 3, 3],
+      backgroundColor: "rgba(255, 99, 132, 0.5)",
+      borderColor: "rgba(255, 99, 132, 1)",
+      borderWidth: 1,
+    },
+    {
+      label: "興味",
+      data: [4, 10, 6, 6, 6, 4],
+      backgroundColor: "rgba(75, 192, 192, 0.2)",
+      borderColor: "rgba(75, 192, 192, 1)",
+      borderWidth: 1,
+    },
+  ],
+};
 export const langData = {
   labels: ["JavaScript", "Python", "Java", "その他"],
   datasets: [
     {
       label: "# of Votes",
       data: [60, 20, 15, 5],
+      backgroundColor: [
+        "rgba(255, 99, 132, 0.2)",
+        "rgba(54, 162, 235, 0.2)",
+        "rgba(255, 206, 86, 0.2)",
+        "rgba(75, 192, 192, 0.2)",
+      ],
+      borderColor: [
+        "rgba(255, 99, 132, 1)",
+        "rgba(54, 162, 235, 1)",
+        "rgba(255, 206, 86, 1)",
+        "rgba(75, 192, 192, 1)",
+      ],
+      borderWidth: 1,
+    },
+  ],
+};
+export const musicSkillData = {
+  labels: ["ジャズピアノ", "クラシックピアノ", "作編曲", "その他"],
+  datasets: [
+    {
+      label: "# of Votes",
+      data: [60, 20, 25, 5],
       backgroundColor: [
         "rgba(255, 99, 132, 0.2)",
         "rgba(54, 162, 235, 0.2)",
@@ -114,7 +162,46 @@ export const careersOfEngineer = [
   },
 ];
 
-export const skillsets = [
+export const careersOfMusic = [
+  {
+    id: 1,
+    term: "2000.4 - 2012.3",
+    title: "クラシックピアノを経験",
+    descriptions: [
+      "クラシックピアノのレッスンを受け、ピアノや音楽の基礎を習得しました。",
+      "発表会で演奏した他、コンペに参加もしました。",
+    ],
+  },
+  {
+    id: 2,
+    term: "2010.4 - 2012.7",
+    title: "トランペットを経験",
+    descriptions: [
+      "吹奏楽部でトランペットを経験しました。",
+      "音感や音楽の知識を生かして学生指揮も担当しました。",
+    ],
+  },
+  {
+    id: 3,
+    term: "2014.4 - 2020.3",
+    title: "ジャズピアノを経験",
+    descriptions: [
+      "大学のジャズ研究会にてジャズピアノに没頭し、多くのセッションを経験したり、音楽理論を学びました。",
+      "有志のビッグバンドにも参加し、サークル設立・運営に関わったり、コンテストに出場しました。",
+    ],
+  },
+  {
+    id: 4,
+    term: " - 2021",
+    title: "現在の活動",
+    descriptions: [
+      "ジャズピアノの演奏を楽しく続けています。",
+      "また、音楽理論や様々なジャンルの経験を活かし、作編曲をやっています。",
+    ],
+  },
+];
+
+export const skillsetsOfEngineer = [
   {
     id: 1,
     title: "コンピュータ基礎",
@@ -155,11 +242,11 @@ export const skillsets = [
     id: 4,
     title: "UI/UX",
     skills: [
-      "UI設計",
       "ペルソナ設計",
       "カスタマージャーニー設計",
       "デザイン思考",
       "リーンキャンバス",
+      "...etc",
     ],
   },
   {
@@ -182,6 +269,30 @@ export const skillsets = [
       "出展用デモアプリの作成",
       "ライブラリ使用経験(scikit-learn, tensorflow)",
     ],
+  },
+];
+
+export const skillsetsOfMusic = [
+  {
+    id: 1,
+    title: "ピアノ演奏",
+    skills: ["ジャズピアノ/即興", "クラシックピアノ", "ポピュラーピアノ"],
+  },
+  {
+    id: 2,
+    title: "作編曲",
+    skills: [
+      "ジャズアレンジ",
+      "演奏人数や形式に合わせたアレンジ",
+      "採譜、楽曲解析",
+      "ピアノソロ/インスト/歌モノの作曲",
+      "(作詞やギターアレンジは苦手)",
+    ],
+  },
+  {
+    id: 3,
+    title: "その他",
+    skills: ["オーディオ機材の使用経験(マイク、アンプ、ミキサー、配線、etc)"],
   },
 ];
 

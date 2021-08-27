@@ -1,7 +1,6 @@
 import { useState } from "react";
-import { skillsets } from "../contents/Content";
 
-const Skillset = () => {
+const Skillset = ({ skillsets }) => {
   const [visibleKey, setVisibleKey] = useState(1);
 
   return (
@@ -29,7 +28,7 @@ const Skillset = () => {
         ))}
       </div>
       <div className="hidden md:block md:flex md:justify-center">
-        <div>
+        <div className="w-full mx-8">
           <div className="bg-gray-100 mb-2 lg:text-lg">
             <div className="p-2 flex justify-center space-x-4">
               {skillsets.map((skillset) => (
