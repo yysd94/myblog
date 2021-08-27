@@ -17,25 +17,6 @@ export const totalSkillData = {
     },
   ],
 };
-
-export const raderOptions = {
-  scales: {
-    r: {
-      beginAtZero: true,
-      min: 0,
-      max: 10,
-    },
-  },
-  plugins: {
-    legend: {
-      labels: {
-        padding: 30,
-      },
-      position: "bottom",
-    },
-  },
-};
-
 export const langData = {
   labels: ["JavaScript", "Python", "Java", "その他"],
   datasets: [
@@ -59,7 +40,25 @@ export const langData = {
   ],
 };
 
-export const langOptions = {
+export const raderOptions = {
+  scales: {
+    r: {
+      beginAtZero: true,
+      min: 0,
+      max: 10,
+    },
+  },
+  plugins: {
+    legend: {
+      labels: {
+        padding: 30,
+      },
+      position: "bottom",
+    },
+  },
+};
+
+export const pieOptions = {
   plugins: {
     legend: {
       labels: {
@@ -70,7 +69,7 @@ export const langOptions = {
   },
 };
 
-export const careers = [
+export const careersOfEngineer = [
   {
     id: 1,
     term: "2014.4 - 2020.3",

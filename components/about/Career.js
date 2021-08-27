@@ -1,7 +1,6 @@
 import { useState } from "react";
-import { careers } from "../contents/Content";
 
-const Career = () => {
+const Career = ({ careers }) => {
   const [visibleKey, setVisibleKey] = useState(0);
 
   const visibleChange = (id) => {
