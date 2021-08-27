@@ -39,9 +39,9 @@ export default function Layout({ children, title = "HP by Nextjs" }) {
       <main className="flex flex-1 justify-center items-center flex-col w-screen">
         {children}
       </main>
-      <footer className="w-full h-24 flex justify-center items-center">
-        <div className="flex flex-col justify-center items-center ">
-          <div className="">
+      <footer className="w-full h-28 flex flex-col text-gray-400">
+        <div className="flex flex-col justify-center items-center">
+          <div className="mb-1">
             <a
               className="flex items-center"
               href="https://github.com/Yubon94"
@@ -51,7 +51,7 @@ export default function Layout({ children, title = "HP by Nextjs" }) {
               {"© 2020 Yu"}
             </a>
           </div>
-          <div className="">
+          <div className="mb-1">
             <a
               className="flex items-center"
               href="https://opensource.org/licenses/mit-license.php"
@@ -61,15 +61,18 @@ export default function Layout({ children, title = "HP by Nextjs" }) {
               {"Source code licensed MIT."}
             </a>
           </div>
-          <div className="">
-            <a
-              className="flex items-center"
-              href="https://creativecommons.org/licenses/by-nc-nd/3.0/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {"Website Content licensed CC BY-NC-ND 3.0."}
-            </a>
+          <div className="mb-1 flex flex-col justify-center items-center md:flex-row">
+            <div className="">{"Website Content licensed"}</div>
+            <div className="mt-1 md:pl-2 md:mt-0">
+              <a
+                className="flex items-center"
+                href="https://creativecommons.org/licenses/by-nc-nd/3.0/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {"CC BY-NC-ND 3.0."}
+              </a>
+            </div>
           </div>
         </div>
       </footer>

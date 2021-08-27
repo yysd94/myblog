@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Career from "../../components/about/Career";
 import Skillset from "../../components/about/Skillset";
 import { Radar, Pie } from "react-chartjs-2";
@@ -18,7 +17,7 @@ const DetailPage = ({ contents }) => {
 
   return (
     <div>
-      <div className="my-4 py-4 w-screen flex flex-col place-content-between items-center">
+      <div className="w-screen flex flex-col place-content-between items-center">
         {/* ページタイトル */}
         <div className="my-16">
           <p className="text-2xl">{pageTitle}</p>
