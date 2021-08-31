@@ -1,9 +1,14 @@
-import Career from "../../components/about/Career";
-import Skillset from "../../components/about/Skillset";
+import Career from "./Career";
+import Skillset from "./Skillset";
 import { Radar, Pie } from "react-chartjs-2";
-import { raderOptions, pieOptions } from "../../components/contents/Content";
+import { raderOptions, pieOptions } from "../contents/Content";
 
-const DetailPage = ({ contents }) => {
+type Props = {
+  contents: any,
+}
+
+const DetailPage: React.FC<Props> = (props) => {
+  const { contents } = props;
   const {
     pageTitle,
     raderTitle,
@@ -36,7 +41,7 @@ const DetailPage = ({ contents }) => {
                     <p>{pieTitle}</p>
                   </div>
                   <div>
-                    <Pie data={pieData} options={pieOptions} />
+                    <Pie type="pie" data={pieData} options={pieOptions} />
                   </div>
                 </div>
                 <div className="my-4">
@@ -44,7 +49,7 @@ const DetailPage = ({ contents }) => {
                     <p>{raderTitle}</p>
                   </div>
                   <div>
-                    <Radar data={raderData} options={raderOptions} />
+                    <Radar type="rader" data={raderData} options={raderOptions} />
                   </div>
                 </div>
               </div>
@@ -65,14 +70,14 @@ const DetailPage = ({ contents }) => {
               <div className="py-4 text-lg">
                 <p>{pieTitle}</p>
               </div>
-              <Pie data={pieData} options={pieOptions} />
+              <Pie type="pie" data={pieData} options={pieOptions} />
             </div>
             <div className="my-12 md:hidden">
               <div className="py-4 text-lg">
                 <p>{raderTitle}</p>
               </div>
               <div className="my-4">
-                <Radar data={raderData} options={raderOptions} />
+                <Radar type="rader" data={raderData} options={raderOptions} />
               </div>
             </div>
             <div className="mt-12 text-lg lg:text-xl">

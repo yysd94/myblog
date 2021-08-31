@@ -8,7 +8,7 @@ import {
 } from "../../components/contents/Content";
 import DetailPage from "../../components/about/DetailPage";
 
-const Music = () => {
+const Music: React.FC = () => {
   const contents = {
     pageTitle: "Music",
     raderTitle: "得意なジャンル",

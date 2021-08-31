@@ -1,6 +1,11 @@
 import { useState } from "react";
 
-const Skillset = ({ skillsets }) => {
+type Props = {
+  skillsets: any,
+}
+
+const Skillset: React.FC<Props> = (props) => {
+  const { skillsets } = props;
   const [visibleKey, setVisibleKey] = useState(1);
 
   return (

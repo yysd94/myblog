@@ -1,8 +1,11 @@
 import { useState } from "react";
 
-const Tech = (props) => {
-  const { techs } = props;
+type Props = {
+  techs: any;
+}
 
+const Tech: React.FC<Props> = (props) => {
+  const { techs } = props;
   const [visibleKey, setVisibleKey] = useState(0);
 
   const visibleChange = (id) => {

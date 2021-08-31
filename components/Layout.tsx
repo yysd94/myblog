@@ -1,7 +1,14 @@
 import Head from "next/head";
 import Link from "next/link";
+import React from "react";
 
-export default function Layout({ children, title = "HP by Nextjs" }) {
+type Props = {
+  children: any,
+  title: string,
+}
+
+const Layout: React.FC<Props> = (props) => {
+  const {children, title = "Yu's Home" } = props;
   return (
     <div className="flex flex-col justify-center items-center min-h-screen text-gray-600 text-sm font-mono">
       <Head>
@@ -78,4 +85,5 @@ export default function Layout({ children, title = "HP by Nextjs" }) {
       </footer>
     </div>
   );
-}
+};
+export default Layout;

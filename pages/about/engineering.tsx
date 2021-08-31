@@ -7,8 +7,9 @@ import {
   langData,
 } from "../../components/contents/Content";
 import DetailPage from "../../components/about/DetailPage";
+import React from "react";
 
-const Engineering = () => {
+const Engineering: React.FC = () => {
   const contents = {
     pageTitle: "Engineering",
     raderTitle: "得意な分野",

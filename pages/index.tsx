@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 import Image from "next/image";
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <Layout title="Yu's Home - Home">
       <div className=" text-center h-full flex flex-col justify-center rounded lg:flex lg:justify-center">
@@ -80,3 +80,4 @@ export default function Home() {
     </Layout>
   );
 }
+export default Home;

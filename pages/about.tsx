@@ -2,7 +2,7 @@ import Layout from "../components/Layout";
 import Link from "next/link";
 import Image from "next/image";
 
-const About = () => {
+const About: React.FC = () => {
   return (
     <Layout title="Yu's Home - About">
       <div className="text-center h-full flex flex-col justify-center rounded">

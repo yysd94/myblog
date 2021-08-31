@@ -3,7 +3,12 @@ import Image from "next/image";
 import { works } from "../contents/Content";
 import Tech from "./Tech";
 
-const AppDetail = (props) => {
+type Props = {
+  contentIndex: any,
+  changeViewMode: any,
+}
+
+const AppDetail: React.FC<Props> = (props) => {
   const { contentIndex, changeViewMode } = props;
 
   return (

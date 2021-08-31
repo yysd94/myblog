@@ -1,6 +1,11 @@
 import { useState } from "react";
 
-const Career = ({ careers }) => {
+type Props = {
+  careers: any,
+}
+
+const Career: React.FC<Props> = (props) => {
+  const { careers } = props;
   const [visibleKey, setVisibleKey] = useState(0);
 
   const visibleChange = (id) => {

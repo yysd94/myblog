@@ -3,7 +3,7 @@ import Image from "next/image";
 import { SocialIcon } from "react-social-icons";
 import { socialLinks } from "../contents/Content";
 
-const SocialLink = () => {
+const SocialLink: React.FC = () => {
   return (
     <div>
       <div className="text-center h-full flex flex-col justify-center rounded mb-8">
