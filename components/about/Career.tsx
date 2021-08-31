@@ -1,10 +1,7 @@
 import { useState } from "react";
+import { CAREER } from "../../types/Types";
 
-type Props = {
-  careers: any,
-}
-
-const Career: React.FC<Props> = (props) => {
+const Career: React.FC<CAREER> = (props) => {
   const { careers } = props;
   const [visibleKey, setVisibleKey] = useState(0);
 

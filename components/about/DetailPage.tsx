@@ -2,12 +2,9 @@ import Career from "./Career";
 import Skillset from "./Skillset";
 import { Radar, Pie } from "react-chartjs-2";
 import { raderOptions, pieOptions } from "../contents/Content";
+import { DETAIL_PAGE } from "../../types/Types";
 
-type Props = {
-  contents: any,
-}
-
-const DetailPage: React.FC<Props> = (props) => {
+const DetailPage: React.FC<DETAIL_PAGE> = (props) => {
   const { contents } = props;
   const {
     pageTitle,

@@ -1,4 +1,15 @@
-export const totalEngineerSkillData = {
+import {
+  RADER_DATA,
+  RADER_OPTION,
+  PIE_DATA,
+  PIE_OPTION,
+  CAREER_CONTENT,
+  SKILLSET_CONTENT,
+  SOCIAL_LINK_CONTENT,
+  WORK_CONTENT,
+} from "../../types/Types";
+
+export const totalEngineerSkillData: RADER_DATA = {
   labels: ["コンピュータ基礎", "ビジネス", "アプリ", "UI/UX", "インフラ", "AI"],
   datasets: [
     {
@@ -17,7 +28,7 @@ export const totalEngineerSkillData = {
     },
   ],
 };
-export const totalMusicSkillData = {
+export const totalMusicSkillData: RADER_DATA = {
   labels: [
     "クラシック",
     "ジャズ",
@@ -43,7 +54,7 @@ export const totalMusicSkillData = {
     },
   ],
 };
-export const langData = {
+export const langData: PIE_DATA = {
   labels: ["JavaScript", "Python", "Java", "その他"],
   datasets: [
     {
@@ -65,7 +76,7 @@ export const langData = {
     },
   ],
 };
-export const musicSkillData = {
+export const musicSkillData: PIE_DATA = {
   labels: ["ジャズピアノ", "クラシックピアノ", "作編曲", "その他"],
   datasets: [
     {
@@ -88,7 +99,7 @@ export const musicSkillData = {
   ],
 };
 
-export const raderOptions = {
+export const raderOptions: RADER_OPTION = {
   scales: {
     r: {
       beginAtZero: true,
@@ -106,7 +117,7 @@ export const raderOptions = {
   },
 };
 
-export const pieOptions = {
+export const pieOptions: PIE_OPTION = {
   plugins: {
     legend: {
       labels: {
@@ -117,7 +128,7 @@ export const pieOptions = {
   },
 };
 
-export const careersOfEngineer = [
+export const careersOfEngineer: CAREER_CONTENT[] = [
   {
     id: 1,
     term: "2014.4 - 2020.3",
@@ -162,7 +173,7 @@ export const careersOfEngineer = [
   },
 ];
 
-export const careersOfMusic = [
+export const careersOfMusic: CAREER_CONTENT[] = [
   {
     id: 1,
     term: "2000.4 - 2012.3",
@@ -201,7 +212,7 @@ export const careersOfMusic = [
   },
 ];
 
-export const skillsetsOfEngineer = [
+export const skillsetsOfEngineer: SKILLSET_CONTENT[] = [
   {
     id: 1,
     title: "コンピュータ基礎",
@@ -272,7 +283,7 @@ export const skillsetsOfEngineer = [
   },
 ];
 
-export const skillsetsOfMusic = [
+export const skillsetsOfMusic: SKILLSET_CONTENT[] = [
   {
     id: 1,
     title: "ピアノ演奏",
@@ -296,7 +307,7 @@ export const skillsetsOfMusic = [
   },
 ];
 
-export const socialLinks = [
+export const socialLinks: SOCIAL_LINK_CONTENT[] = [
   {
     id: 1,
     title: "Twitter",
@@ -327,7 +338,7 @@ export const socialLinks = [
   },
 ];
 
-export const works = [
+export const works: WORK_CONTENT[] = [
   {
     id: 1,
     sammary: {
@@ -370,40 +381,4 @@ export const works = [
       ],
     },
   },
-  // {
-  //   id: 2,
-  //   sammary: {
-  //     title: "My Homepage",
-  //     imageSrc: "/my-homepage.jpg",
-  //     descriptions: ["descriptionのサンプルです"],
-  //   },
-  //   detail: {
-  //     title: "Sample",
-  //     term: "",
-  //     aim: "",
-  //     features: [""],
-  //     techs: [
-  //       {
-  //         id: 1,
-  //         name: "UI",
-  //         contents: ["Next.js", "tailwind css", "chart.js"],
-  //       },
-  //       {
-  //         id: 2,
-  //         name: "Backend",
-  //         contents: [""],
-  //       },
-  //       {
-  //         id: 3,
-  //         name: "CI/CD",
-  //         contents: [""],
-  //       },
-  //       {
-  //         id: 4,
-  //         name: "Others",
-  //         contents: [""],
-  //       },
-  //     ],
-  //   },
-  // },
 ];

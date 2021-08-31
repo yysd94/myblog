@@ -1,13 +1,10 @@
 import { useState } from "react";
+import { SKILLSET } from "../../types/Types";
 
-type Props = {
-  skillsets: any,
-}
-
-const Skillset: React.FC<Props> = (props) => {
+const Skillset: React.FC<SKILLSET> = (props) => {
   const { skillsets } = props;
   const [visibleKey, setVisibleKey] = useState(1);
-
+  
   return (
     <div>
       <div className="md:hidden">

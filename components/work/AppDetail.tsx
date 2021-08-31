@@ -2,13 +2,9 @@ import React from "react";
 import Image from "next/image";
 import { works } from "../contents/Content";
 import Tech from "./Tech";
+import { APP_DETAIL } from "../../types/Types";
 
-type Props = {
-  contentIndex: any,
-  changeViewMode: any,
-}
-
-const AppDetail: React.FC<Props> = (props) => {
+const AppDetail: React.FC<APP_DETAIL> = (props) => {
   const { contentIndex, changeViewMode } = props;
 
   return (

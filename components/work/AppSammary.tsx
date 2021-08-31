@@ -1,12 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import { works } from "../contents/Content";
+import { APP_SAMMARY } from "../../types/Types";
 
-type Props = {
-  changeViewMode: any,
-}
-
-const AppSammary: React.FC<Props> = (props) => {
+const AppSammary: React.FC<APP_SAMMARY> = (props) => {
   const { changeViewMode } = props;
 
   return (

@@ -1,13 +1,9 @@
 import Head from "next/head";
 import Link from "next/link";
 import React from "react";
+import { LAYOUT } from "../types/Types";
 
-type Props = {
-  children: any,
-  title: string,
-}
-
-const Layout: React.FC<Props> = (props) => {
+const Layout: React.FC<LAYOUT> = (props) => {
   const {children, title = "Yu's Home" } = props;
   return (
     <div className="flex flex-col justify-center items-center min-h-screen text-gray-600 text-sm font-mono">
