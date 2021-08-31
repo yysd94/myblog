@@ -13,7 +13,7 @@ const Home: React.FC = () => {
                   <div className="flex justify-center m-4">
                     <Image
                       className="rounded-full"
-                      src="/face-round.png"
+                      src="/face-round.jpg"
                       width={130}
                       height={130}
                       alt="Avatar"
