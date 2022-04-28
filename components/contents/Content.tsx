@@ -311,7 +311,7 @@ export const socialLinks: SOCIAL_LINK_CONTENT[] = [
   {
     id: 1,
     title: "Twitter",
-    url: "https://twitter.com/yu_bon94",
+    url: "https://twitter.com/Yubon94",
     iconImage: "",
     description: "日々の出来事や、興味のある技術、趣味について呟きます",
   },
@@ -329,13 +329,13 @@ export const socialLinks: SOCIAL_LINK_CONTENT[] = [
     iconImage: "",
     description: "音楽ネタや自作曲を発信するチャンネルです。",
   },
-  {
-    id: 4,
-    title: "Qiita",
-    url: "https://qiita.com/YasudaYu",
-    iconImage: "/qiita-logo.png",
-    description: "勉強したり興味を持った技術をまとめています。",
-  },
+  // {
+  //   id: 4,
+  //   title: "Qiita",
+  //   url: "https://qiita.com/YasudaYu",
+  //   iconImage: "/qiita-logo.png",
+  //   description: "勉強したり興味を持った技術をまとめています。",
+  // },
 ];
 
 export const works: WORK_CONTENT[] = [

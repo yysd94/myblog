@@ -33,7 +33,7 @@ const Home: React.FC = () => {
                 卒業後、SIerにてインフラエンジニアとして働きました。
               </p>
               <p className="text-xs mt-2 text-gray-600 md:text-lg md:mt-4 lg:text-left">
-                現在、フロントエンド領域で仕事をするために勉強しています。
+                現在、Webエンジニアとして仕事をするために勉強しています。
               </p>
               <div className="mt-12 lg:flex">
                 <div className="lg:flex lg:justify-start">
